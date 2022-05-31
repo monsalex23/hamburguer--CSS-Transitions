@@ -11,6 +11,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    color: aliceblue;
 }
 
 .checkbox {
@@ -66,4 +67,14 @@
 #toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
     top: 48px;
+}
+
+.bd{ 
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(228, 171, 245);
+
+
 }
